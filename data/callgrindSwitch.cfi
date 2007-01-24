@@ -1,0 +1,15 @@
+    
+  
+
+    module profilerStart = Profiler {
+      int32    firstEvent = 2    
+      int32    lastEvent = 20    
+      int32    action = 1    
+  
+    }
+    module profilerStop = Profiler {
+      int32    firstEvent = 2    
+      int32    lastEvent = 20   
+      int32    action = 0    
+    }
+
